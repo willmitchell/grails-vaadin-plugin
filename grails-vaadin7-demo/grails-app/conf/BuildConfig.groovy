@@ -46,7 +46,8 @@ grails.project.dependency.resolution = {
     plugins {
         runtime ":hibernate:$grailsVersion"
         runtime ":jquery:1.8.0"
-        runtime ":resources:1.1.6"
+//        runtime ":resources:1.1.6"
+        compile ":asset-pipeline:1.8.11"
 
         //runtime ":vaadin:2.2.0"
 

@@ -25,7 +25,7 @@ grails.project.dependency.resolution = {
         mavenRepo "http://repo.springsource.org/release"
     }
 
-    vaadinVersion = "7.1.15"
+    vaadinVersion = "7.2.4"
 
     dependencies {
         compile "com.vaadin:vaadin-server:${vaadinVersion}"
@@ -36,7 +36,7 @@ grails.project.dependency.resolution = {
     }
 
     plugins {
-        build(':release:3.0.1', ':rest-client-builder:1.0.3') {
+        build(':release:3.0.1', ':rest-client-builder:2.0.3') {
             export = false
         }
     }
